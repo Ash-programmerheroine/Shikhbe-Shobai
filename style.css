@@ -1,0 +1,187 @@
+body{
+	margin: 0 auto;
+	padding: 0;
+	width: 100%;
+	font-family: 'Poppins', sans-serif;
+	background: black;
+	color:white;
+}
+h2{
+	color:#1FDE7D;
+	text-decoration: underline;
+	
+}
+
+/*navigation Bar*/
+.nav{margin-bottom: 50%;}
+.nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #3D3535;
+}
+.nav ul li a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+/* Change the link color on hover */
+
+.nav li a.active {
+  background-color: #695B5B;
+  color: white;
+}
+.nav ul li a:hover:not(.active)  {
+  background-color:#1FDE7D;
+  color: white;
+}
+  
+/*name,space,button & text alignment*/
+
+.name-highlight{
+	color: #861FDE;
+	
+	font-weight: 800;
+	font-size: 20px;
+}
+.download-cv-space{
+	margin-top: 6%;
+}
+
+.headline-space{
+	margin-bottom: 6%;
+}
+.div-space{
+	margin-bottom: 6%;
+}
+.button-link{
+    text-decoration:none;
+    border: 3px solid #1FDE7D;
+    color:white;
+    padding: .5% 2%; 
+    font-weight: 700;
+}
+
+.text-align{
+	text-align: center;
+}
+
+/*section styling*/
+
+.one-fourth-width{
+		 width: 10%;
+		 height: 690px;
+    	 float:left;
+	     padding:3%;
+	     background-color: #3D3535;
+	     position:fixed;
+
+}
+.left-width{
+    width: 77%;
+    float:right;
+    padding: 3%;
+    height: 3300px;
+    background-color: #3D3535;
+}
+
+
+
+footer p{
+	font-size: 10px;
+}
+/*table styleing*/
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #1FDE7D ;
+}
+
+/*Right section styling*/
+.big-picture{
+	height: 500px; 
+	width:55%;
+	margin-right: 2%;
+	float:left;
+
+}
+.big-picture img{
+	width:100%;
+
+}
+.aboutme{
+	width: 10%;
+	overflow: hidden;
+	text-align: end;
+}
+
+#skill{
+	margin-top: 16%;
+}
+
+/*Image styling(my work)*/
+#my-work{
+	height: 800px;
+	width: 1100px;
+	margin: 2%;
+}
+.first-work{
+	
+	width: 45%;
+	float: left;
+	margin-right: 
+}
+.first-work img{
+	height: 600px;
+	width: 100%;
+}
+.second-work{
+	width:45%;
+	height: 100%;
+	float: right;
+
+
+}
+.second-work img{
+	height: 600px;
+	width: 100%;
+}
+
+/*contact form styling*/
+.contact-form{
+	width: 100%;
+	overflow: hidden;
+	
+}
+
+input{
+	width: 300px;
+	height: 60px;
+	background:#695B5B;
+}
+textarea{
+	margin-top: 19px;
+	width:400px;
+	height:  450px;
+	background: #695B5B;
+}
+.input-fields{
+	float: left;
+	margin-left:15%;
+	
+}
+.message{
+	margin-left:40%;
+}
+
